@@ -1,0 +1,28 @@
+# Adjustable project starting point, not a fixed specification.
+# Confirm canvas/venue constraints when known; document project-specific overrides.
+project: ""
+paper_scope: [main, supplement, graphical_abstract]
+figure_system:
+  palette_kit: project-defined # example: light | mid | deep | another family
+  role_map:
+    result: "" # example: rose
+    structure: "" # example: plum-grey
+    reference: "" # example: neutral grey
+    stimulus: "" # choose only if this role exists; example: gold
+  fonts:
+    text: "" # choose after glyph/licence checks
+    numeric: ""
+    math: ""
+  canvas_mm:
+    main_width: null # provisional only until output/venue size is known
+    graphical_abstract_width: null
+  type_floor_pt: null # tune to final physical size and venue
+  line_weights_pt: {} # record values actually used
+  marker_vocabulary: {} # record redundant encodings actually used
+  reference_line: {} # record only when relevant
+figures: []
+# Per figure, record:
+# - id, purpose, template, template_level (primary|motif|reference)
+# - independent_unit (when applicable), source_data_or_evidence, estimand_or_object, interval_definition (when applicable)
+# - composition, panel_order, shared_axes, local_exceptions
+# - output_paths, source_hashes, qa_receipt, acceptance (keep|revise|abandon)

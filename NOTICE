@@ -1,0 +1,5 @@
+Figure Craft is distributed under the Apache License 2.0 for the original documentation and code contributed to this repository.
+
+The bundled figure examples, renderers, and fonts originated in the author's research workflow and may carry separate attribution, publication, or redistribution conditions. Before redistributing or using those assets independently, verify their source permissions and any associated research-repository terms. The repository's Apache-2.0 license does not override a third-party or source-specific license.
+
+External projects and guidance mentioned in the references retain their own licenses and terms, including SciencePlots, tueplots, Matplotlib, Nature Research Figure Guide, and PLOS materials.

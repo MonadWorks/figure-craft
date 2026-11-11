@@ -1,0 +1,20 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local outputs and temporary previews
+tmp/
+*.log
+.DS_Store
+
+# Local source-data/output directories used by historical renderers
+source_data/
+outputs/
+figures/
+
+# Local environment overrides
+.env
+.env.*
