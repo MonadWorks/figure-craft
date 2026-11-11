@@ -27,7 +27,7 @@ A local warm orange such as `#E8A13C` appeared in a specific three-response figu
 
 ## Colour logic
 
-- Keep a colour's meaning stable across related panels. Rose–Plum–Gold is the base grammar: rose carries the primary result accent, plum carries structure and measured contrast, and gold carries stimulus/input when that role exists.
+- Keep a colour's meaning stable across related panels. Rose–Plum–Gold is the base grammar: rose carries the primary result accent, plum carries structure and measured contrast, and gold is reserved for stimulus/input when that role exists. Gold is not a general-purpose default or decorative highlight; use it elsewhere only as a rare, intentional accent with a clear meaning.
 - Use colour sparingly. Let whitespace, neutral ink, line weight, marker shape, fill state, and direct labels do part of the work. Do not colour every object.
 - Use a dark companion for pale fills. Pair warm accents with quiet cool or neutral structure so the page does not become visually loud.
 - For ordered magnitude, use a sequential scale with a perceptually meaningful lightness progression. For signed values with a meaningful centre, use a diverging scale with a clear neutral midpoint. For unordered categories, use a small qualitative set; keep category colours balanced rather than implying rank.
