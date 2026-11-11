@@ -57,7 +57,7 @@ def main(output=None):
     output.parent.mkdir(parents=True, exist_ok=True)
     fs.check_text(canvas.fig, canvas.manual)
     canvas.fig.savefig(output.with_suffix('.pdf'), metadata={'CreationDate': None, 'ModDate': None})
-    canvas.fig.savefig(output.with_suffix('.png'), dpi=300)
+    canvas.fig.savefig(output.with_suffix('.png'), dpi=3000)
     plt.close(canvas.fig)
     print(f'wrote {output.with_suffix(".pdf")} and {output.with_suffix(".png")}')
 

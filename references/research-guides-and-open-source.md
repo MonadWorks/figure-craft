@@ -39,7 +39,7 @@ A useful test: can a reader explain the primary relationship and the extra varia
 ## What not to turn into universal rules
 
 - Journal-specific sizes, font families, point-size ranges, panel limits, formats, and raster-resolution thresholds are submission constraints, not universal design laws. Check the target venue's current instructions near submission; do not impose a house style on exploratory design.
-- There is no universal requirement to export everything as TIFF or at 300 dpi. Prefer vector PDF/SVG for plots and text when accepted; choose raster format and effective resolution for the image content and destination. Never treat a nominal dpi value as a substitute for adequate pixel dimensions at final size.
+- TIFF is useful for raster photographs, microscopy, and venues that request it, but it is not a reason to flatten vector plots. For this skill, a raster export of 3000 dpi or above is a reasonable default; still check effective pixel dimensions at final size and follow the target medium when it specifies another value. Prefer editable vector PDF/SVG for plots and text when accepted.
 - A top-left start and left-to-right reading order are useful conventions for many audiences, not a rule for every language, circular process, spatial map, or deliberately centered composition.
 - Removing every gridline, minimizing every white space, or banning all coloured text is too absolute. Keep or remove an element according to whether it supports reading at final size.
 - Accessibility is not guaranteed by choosing a palette marketed as “colourblind safe.” Test the actual co-occurring marks and preserve distinctions with non-colour channels.

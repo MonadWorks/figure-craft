@@ -28,7 +28,8 @@ At minimum, run:
 - crowded tick checks;
 - panel/title/row/numeric anchor consistency;
 - PDF MediaBox and PNG dimensions against the intended physical size;
-- effective raster resolution at final placed size, and file format/colour mode required by the target use; 300 dpi is a common print baseline, not a universal threshold, and line art may need more;
+- effective raster resolution at final placed size, and file format/colour mode required by the target use; prepare raster exports at 3000 dpi or above by default for this skill, unless the target medium or venue specifies another value; prefer vector for plots and text when possible;
+- consider TIFF for raster photographs, microscopy, or a venue that requests it; keep PNG for transparent previews and lossless web/review use, and do not convert vector plots to TIFF without a real need;
 - font embedding and editable vector output where required;
 - source-data and renderer hashes;
 - scale bars, inset boundaries, magnification, and annotation keys for image-based panels where relevant;
